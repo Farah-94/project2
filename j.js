@@ -12,7 +12,6 @@ function myFunction() {
 
 let image1= document.getElementsByClassName("img1");
 
-image1.style.width="400px";
 
   });
 
