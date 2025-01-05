@@ -1,0 +1,206 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(243, 242, 244);
+}
+
+.video-container {
+    position: relative;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    overflow: hidden;
+    width: 100%;
+    background: rgb(196, 196, 200);
+}
+
+.first video {
+    position: absolute;
+    z-index: 1;
+    width: 100vh;
+    height: 100vh;
+    max-width: none;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    outline: double 4px rgb(209, 70, 16);
+    /* opacity: 0.5; */
+    position: absolute;
+    z-index: 2;
+    top:0;
+    left: 0;
+    text-align: center;
+  margin: 1%;
+   
+} 
+
+#aboutus {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: large;
+}
+
+@media(min-aspect-ratio: 16/9)
+{
+    #myvideo{
+        width:100%;
+        height: auto;
+    }
+}
+
+
+
+ .overlay-content {
+    background-color: rgb(40, 224, 40);
+    opacity: 0.5;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+} 
+
+
+.first {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    background: rgb(55, 46, 86);
+display: absolute;
+
+}
+
+
+
+
+ 
+@media(min-aspect-ratio: 16/9)
+{
+    #myvideo{
+        width:100%;
+        height: auto;
+    }
+} 
+ /* Add a black background color to the top navigation */
+.topnav {
+    z-index: 4;
+    bottom: 0;
+    position: absolute;
+    background-color: #483426;
+    overflow: hidden;
+    font-style: italic;
+    font-weight: 450;
+
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #690707f9;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .parallel-boxes{
+    margin: 2%;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:  100%;
+
+  }
+  #aboutus{
+    display: flex;
+    width: 100%;  
+    box-shadow: 0 4px 8px 0 rgba(22, 9, 9, 0.2), 0 6px 20px 0 rgba(65, 62, 62, 0.19);
+    background-color: #997423;
+
+  }
+.box1{
+    font-size: large;
+      color:aliceblue;
+      box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align:center;
+    background-color: #997423;
+}
+
+.box2{
+    color: aliceblue;
+    text-align: center;
+  
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.parallel-boxes video{
+
+margin-top: 1% ;
+box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+button{
+  background-color: #efeadd;
+z-index: 5;
+top :0;
+center : 0;
+position: absolute;
+margin-top: 0.5%;
+width: 200px;
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
