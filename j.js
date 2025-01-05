@@ -8,9 +8,11 @@ function myFunction() {
   }
 
   let boxTwo = document.getElementsByClassName("box2");
-  boxTwo.addEventListener("mouseover",function(e){
+  boxTwo.addEventListener("mouseenter",function(e){
 
+let image1= document.getElementsByClassName("img1");
 
+image1.style.width="400px";
 
   });
 
