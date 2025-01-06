@@ -60,10 +60,10 @@ margin: 1%;
  
 } 
 .buttonone{
-  outline: double 4px rgb(106, 70, 11);
+  outline: double 4px rgb(71, 58, 58);
   color: aliceblue;
   font-size: large;
-  background-color: #514d44;
+  background-color: #88141d;
 z-index: 3;
 top :0;
 position: absolute;
@@ -130,31 +130,46 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 }
 
-.toprated-chefs{
+.container{
   width:100%;
 height : auto;
 border: 1px black solid;
 margin-top: 1%;
-display: flex;
-float: left;
-justify-content: center;
 color: #ddd;
-background-color: #6e2f04;
+background-color: #751d22;
 text-align: center;
 }
-.chef-card img{
 
-  outline: double 4px rgb(90, 29, 5);
+.message-button{
+width:100px;
+height: 30px;
+background-color: #f5ecec;
+
+}
+
+.chef-item img{
+
+  outline: double 4px rgb(241, 238, 237);
+  border-radius: 50%;
+  width: 200px;
+  height:auto;
 
 } 
-.chef-card {
+.heading-card .para-card{
+  background-color: #5e3c12;
+}
+.chef-item .card-list{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+display: flex;
+  left:0;
 margin-top: 5%;
 padding:0%;
 text-align: center;
 width:400px;
 height: auto;
-outline: auto;
-background-color: #9d400e;
-
-
+background-color: #847973;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
 }

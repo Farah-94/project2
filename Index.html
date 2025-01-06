@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
   <title>Document</title>
 </head>
 <body>
@@ -44,30 +48,68 @@
   </div>
 </header>
 
-<section class="toprated-chefs">
-  <h1>Top Rated Chefs</h1>
-<div class="chef-card">
-
-<div>
-  <h3>Mahi Nawaz</h3>
-  <img src="chef1.jpg" alt="lady chef" width="200"  height="auto">
-  <p>Mahi has 10 years of experience in baking and cooking.</p>
-</div>
 
 
+  <div class="container swiper">
+ 
+    <div class="slider-wrapper swiper-wrapper">
+    <!-- <div class="card-list" > -->
+      <div class="chef-item swiper-slide">
+        <h2>Mahi Nawaz</h2>
+        <img src="chef1.jpg" alt="lady chef" >
+        <p class="para-card">Mahi has 10 years of experience in baking.</p>
+        <button type="button" class="message-button" >Message</button>
+
+      </div>
+
+      <div class="chef-item swiper-slide">
+        <h3>Tim Lee</h3>
+        <img src="chef2.jpg" alt="lady chef" >
+        <p class="para-card">Mahi has 10 years of experience in baking.</p>
+        <button type="button" class="message-button" >Message</button>
+
+      </div>
+      <div class="chef-item swiper-slide">
+        <h3></h3>
+        <img src="chef3.jpg" alt="lady chef" >
+        <p class="para-card">Mahi has 10 years of experience in baking.</p>
+        <button type="button" class="message-button" >Message</button>
+      </div>
+   
+      <div class="chef-item swiper-slide">
+        <h3></h3>
+        <img src="chef4.jpg" alt="lady chef" >
+        <p class="para-card">Mahi has 10 years of experience in baking.</p>
+        <button type="button" class="message-button" >Message</button>
+      </div>
+
+
+      <div class="chef-item swiper-slide">
+        <h3></h3>
+        <img src="chef5.jpg" alt="lady chef" >
+        <p class="para-card">Mahi has 10 years of experience in baking.</p>
+        <button type="button" class="message-button" >Message</button>
+      </div>
+
+
+    <!-- </div> -->
+
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+
+    <div class="swiper-scrollbar"></div>
+  </div>
+  </div>
 
 
 
-</div>
 
 
 
-</section>
-
-
-
-
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </body>
 </html>
