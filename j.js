@@ -7,12 +7,11 @@ function myFunction() {
     }
   }
 
-  let boxTwo = document.getElementsByClassName("box2");
-  boxTwo.addEventListener("mouseenter",function(e){
+  let box1 = document.getElementsByClassName("box1");
+  box1.addEventListener("mouseenter",function(e){
 
-let image1= document.getElementsByClassName("img1");
-
-
+    console.log(box1.length);
+box1.style.backgroundcolor="#090909";
   });
 
 
